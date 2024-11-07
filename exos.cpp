@@ -1,6 +1,6 @@
 #include <iostream>
 
-void exo3(){
+void exo3(){ // Calcule la moyenne de 5 entiers
     int count {0};
     int num;
     for(int c =0; c<5; c++){
@@ -16,7 +16,7 @@ void exo3(){
     std::cout << "La moyenne c'est: " << count / 5 << std::endl;
 }
 
-void exo4(){
+void exo4(){ // Calcule le prix de choses
     float prix;
     int nb_elements;
     float taxe;
@@ -30,7 +30,7 @@ void exo4(){
     std::cout << "Va falloir passer à la caisse, paye la modique somme de " << prix * nb_elements * (100 + taxe) / 100 << " lereles" << std::endl;
 }
 
-void exo1_stcontr(){
+void exo1_stcontr(){ // Calcule la somme des N premier nombres
     long int N;
     std::cout << "Calcul de la somme des N premiers nombres où N = ";
     std::cin >> N;
@@ -46,7 +46,7 @@ void exo1_stcontr(){
     }
     std::cout << "La somme (calculée de manière itérative, évidemment) vaut: " << sum << std::endl;
 }
-void exo2_stcontr(){
+void exo2_stcontr(){ // Calcule la somme de nombres donnés en input
     int N;
     int sum;
     int num;
@@ -61,7 +61,7 @@ void exo2_stcontr(){
     std::cout << "la magnifique somme vaut la modique somme de: " << sum << std::endl;
 }
 
-void exo3_stcontr(){
+void exo3_stcontr(){ // Fais une pyramide
     int n ;
     std::cin >> n;
     for(int i = 0; i < n;i++){
