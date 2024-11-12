@@ -30,7 +30,7 @@ void exo4(){ // Calcule le prix de choses
     std::cout << "Va falloir passer à la caisse, paye la modique somme de " << prix * nb_elements * (100 + taxe) / 100 << " lereles" << std::endl;
 }
 
-void exo1_stcontr(){ // Calcule la somme des N premier nombres
+void exo1_stcontr(){ // Calcule la somme des N premier nombres (stcontr is for structure de controle)
     long int N;
     std::cout << "Calcul de la somme des N premiers nombres où N = ";
     std::cin >> N;
